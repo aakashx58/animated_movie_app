@@ -21,7 +21,7 @@ class HeaderWidget extends StatelessWidget {
           children: [
             RichText(
               text: const TextSpan(
-                text: "Hello ",
+                text: "Hello, ",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 24,
@@ -29,7 +29,7 @@ class HeaderWidget extends StatelessWidget {
                 ),
                 children: [
                   TextSpan(
-                    text: "Aakash Rajbanshi!",
+                    text: "Aakash Rajbanshi",
                     style: TextStyle(
                       fontWeight: FontWeight.normal,
                       fontSize: 22,
